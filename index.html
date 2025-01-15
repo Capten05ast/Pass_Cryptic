@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+
+    <link rel="icon" href="passit_faviz.png" type="image/x-icon">
+    <link rel="stylesheet" href="millions.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass+Mono:wght@300..700&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> Home </li>
+            <li> About </li>
+            <li> Contact </li>
+        </ul>
+
+        <h2> Pass-Cryptic </h2>
+    </nav>
+
+
+    <div class="container">
+        <h1> Password Manager </h1>
+        <p> 
+            Welcome to Pass-Crypt
+            Your trusted companion for secure and effortless password management. Safeguard your digital life with advanced encryption and easy access to all your credentials. 
+        </p>
+
+        <br>
+        <br>
+        <h2> Your Passwords </h2>
+        <table class="t1">
+            <tr class="t1">
+                <th class="t1"> website </th>
+                <th class="t1"> username </th>
+                <th class="t1"> password </th>
+                <th class="t1"> Delete </th>
+            </tr>
+            <tr class="t1">
+                <td class="t1">CWH</td>
+                <td class="t1">harry@codewithharry.com</td>
+                <td class="t1">yes bro</td>
+                <td class="t1">yes bro</td>
+            </tr>
+            <!-- <tr class="t1">
+                <td class="t1">Harry</td>
+                <td class="t1">100</td>
+                <td class="t1">yes bro</td>
+                <td class="t1">yes bro</td>
+            </tr> -->
+        </table>
+
+        <br>
+        <br>
+        <h2> Add a Password <span id = "alert"> ( Copied! ) </span> </h2>
+        <br>
+        <!-- <p class="alert"> Your Password Has Been Copied </p> -->
+        <form action="/submit" method="post">
+
+            <!-- Website input -->
+            <label class="password" for="website">Website:</label>
+            <input class="password_in" type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label class="username" for="username">Username:</label>
+            <input class="username_in" type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label class="password" for="password">Password:</label>
+            <input class="password_in" type="password" id="password" name="password" required>
+            <br><br>
+        
+            <!-- Submit button -->
+            <br>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+    </div>
+    
+
+    <script src="Thats.js"></script>
+</body>
+</html>
+
+     
+
+
+
+<!-- Radio buttons for gender -->
+<!-- <label>Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<br><br> -->
